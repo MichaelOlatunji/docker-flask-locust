@@ -9,5 +9,9 @@ install:
 lint:
 	pylint --disable=R,C app.py
 	
+run:
+	python app.py
+	
 all:
-	install lint
+	setup install lint run
+	
