@@ -1,6 +1,6 @@
 FROM python:3.7.3-stretch
 
-WORKDIR '/app'
+WORKDIR /app
 
 COPY . app.py /app
 COPY . locustfile.py /app
